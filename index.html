@@ -1,0 +1,264 @@
+<html>
+
+<head>
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>Sushi Restaurant</title>
+
+    <style>
+        html {
+            scroll-behavior: smooth
+        }
+
+        .myBody {
+            margin: 0;
+            font-family: "Playwrite HU", cursive;
+        }
+
+        .rockSalt {
+            font-family: "Rock Salt", cursive;
+        }
+
+        .atf-image {
+            width: 100%;
+            height: 650px;
+            object-fit: cover;
+            filter: blur(1px);
+        }
+
+        .main-container {
+            background-color: rgba(0, 0, 0, 0.4);
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            color: white;
+            height: 650px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .container {
+            padding-left: 96px;
+            padding-right: 96px;
+            height: max-content;
+            Margin-bottom: 64px;
+        }
+
+        .google {
+            height: 360px;
+            width: 100%;
+        }
+
+        .youtube {
+            height: 580px;
+            width: 100%
+        }
+
+        .footer {
+            background-color: rgb(35, 38, 41);
+            color: white;
+            padding: 100px;
+            display: flex;
+            justify-content: space-between;
+            Margin-bottom: 0;
+        }
+
+        .footer-link {
+            color: white;
+            text-decoration: none;
+        }
+
+        .footer-link:hover {
+            text-decoration: underline;
+        }
+
+        h1 {
+            color: #FFC107;
+            font-size: 64px;
+            filter: drop-shadow(2px 4px 6px black);
+        }
+
+        .menu {
+            position: absolute;
+            top: 16px;
+            right: 32px;
+            padding: 16px;
+        }
+
+        .nav-link {
+            color: #FFC107;
+            text-decoration: none;
+            margin-left: 16px;
+            filter: drop-shadow(2px 4px 6px black);
+        }
+
+        .nav-link:hover {
+            text-decoration: underline;
+        }
+
+        .btn {
+            Background-color: #FFC107;
+            color: white;
+            padding: 8px;
+            border-radius: 8px;
+        }
+
+        .btn:hover {
+            background-color: #e1bb49;
+            text-decoration: none !important;
+        }
+
+        a {
+            color: black;
+        }
+
+        a:hover {
+            Text-decoration: none;
+        }
+    </style>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&family=Playwrite+HU:wght@100..400&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&family=Playwrite+HU:wght@100..400&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Rock+Salt&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body class="myBody">
+
+
+    <img class="atf-image" src="./img/aot.png" alt="Restaurant Bild">
+
+
+
+    <div class="main-container">
+
+        <h1>Herzlich Willkommen</h1>
+        Hier findest Du einen Überblick über unsere Speisen<br>
+        <br>
+    </div>
+
+    <div class="menu">
+        <a class="nav-link" href="#home">home</a>
+        <a class="nav-link" href="#about-us">über uns</a>
+        <a class="nav-link" href="#contact">kontakt</a>
+        <a class="nav-link btn" href="tel:+491736227868">reservieren</a>
+    </div>
+
+    <div class="container">
+        <br>
+        Jetzt auch programmieren lernen und weiterbilden auf : <a href="https://developerakademie.com/"
+            target="_blank">Developer Akademie</a><br>
+    </div>
+
+    <div class="container">
+        <h2 class="rockSalt">Unsere Öffnungszeiten</h2>
+        <table>
+            <tr>
+                <th>Wochentag</th>
+                <th>Uhrzeit</th>
+            </tr>
+            <tr>
+                <td>Mo. - Fr.</td>
+                <td>9:00 - 22:00 Uhr</td>
+            </tr>
+            <tr>
+                <td>Sa.</td>
+                <td>12:00 - 22:00 Uhr</td>
+            </tr>
+            <tr>
+                <td>So.</td>
+                <td>geschlossen</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="container" id="home">
+        <h2 class="rockSalt">Anfahrt</h2>
+        Unsere Adresse lautet: Kaiserstraße 54, 44135 Dortmund<br>
+        <iframe class="google"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19862.5688223698!2d7.4296651743164!3d51.516498!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b917c66a8f8771%3A0xf422ab7667770b13!2sAMI%20Restaurant!5e0!3m2!1sde!2sde!4v1742075232020!5m2!1sde!2sde"
+            style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe><br>
+    </div>
+
+    <div class="container">
+        <h2 class="rockSalt">Speisekarte</h2>
+        <table>
+            <tr>
+                <th>Nr.</th>
+                <th>Gericht</th>
+                <th>Anzahl</th>
+                <th>Preis</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Maki</td>
+                <td>(8 Stück)</td>
+                <td>6,90 €</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Crispy Rolls</td>
+                <td>(8 Stück)</td>
+                <td>8,90 €</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>California Rolls</td>
+                <td>(8 Stück)</td>
+                <td>9,90 €</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Deluxe Rolls</td>
+                <td>(8 Stück)</td>
+                <td>12,90 €</td>
+            </tr>
+        </table>
+        Jetzt die Speisekarte <a href="./downloads/speisekarte.pdf" target="_blank">herunterladen</a>
+    </div>
+
+    <div class="container" id="contact">
+        <h2 class="rockSalt">Kontakt</h2>
+        So kannst du uns kontaktieren:<br>
+        E-Mail: <a href="mailto:ilja.savkiv@gmail.com">ilja.savkiv@gmail.com</a><br>
+        Telefon: <a href="tel:+491736227868">01736227868</a>
+    </div>
+
+    <div class="container" id="about-us">
+        <h2 class="rockSalt">Unser Restaurant</h2>
+        <iframe class="youtube" src="https://www.youtube.com/embed/R0HCtSURFXQ?si=ZmylB9iwrFSy8tw0"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+    <div class="container">
+        <h2 class="rockSalt">Unsere Bewertungen</h2>
+        <!-- Elfsight Google Reviews | Untitled Google Reviews -->
+        <script src="https://static.elfsight.com/platform/platform.js" async></script>
+        <div class="elfsight-app-8b2b98fb-f469-400a-b9a7-4830e9744da2" data-elfsight-app-lazy></div>
+    </div>
+
+    <div class="container footer">
+        <div>
+            (c) 2025 Sushi Restaurant GmbH
+        </div>
+        <div>
+            <a class="footer-link" href="impressum.html">Impressum</a>
+            |
+            <a class="footer-link" href="datenschutz.html">Datenschutz</a>
+        </div>
+    </div>
+
+</body>
+
+</html>

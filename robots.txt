@@ -1,0 +1,6 @@
+#Kommentar: Verbieten aller rechtlichen Seiten für Suchmaschinen
+User-agent: *
+Disallow: /agb.html
+Disallow: /impressum.html
+Disallow: /datenschutz.html
+Disallow: /widerruf.html
